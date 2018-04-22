@@ -6,6 +6,7 @@
   "scripts": {
     "prestart": "yarn --no-lockfile || npm install",
     "start": "parcel index.html",
+    "build": "parcel build index.html -d docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
